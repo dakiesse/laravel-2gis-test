@@ -41,7 +41,7 @@ DB_PASSWORD=secret
 php artisan migrate:refresh --seed
 </pre>
 
-Точка входа находиться в public/
+Точка входа находится в public/
 
 Для поднятия локального сервера (localhost:8000)
 <pre>
