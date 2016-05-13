@@ -11,7 +11,7 @@ CREATE TABLE categories
 (
   id        INTEGER PRIMARY KEY              NOT NULL,
   name      VARCHAR(255)                     NOT NULL,
-  type      SMALLINT DEFAULT '1' :: SMALLINT NOT NULL, -- branch or leaf --
+  type      SMALLINT DEFAULT '1'::SMALLINT NOT NULL, -- branch or leaf --
   _lft      INTEGER                          NOT NULL,
   _rgt      INTEGER                          NOT NULL,
   parent_id INTEGER
