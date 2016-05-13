@@ -17,7 +17,7 @@ class CompanySeeder extends Seeder
         /** @var Collection $tree */
         $leaves = (new Category)->allLeaves();
 
-        factory(Company::class, env('SEED_COMPANY_AMOUNT', 10000))
+        factory(Company::class, (int) env('SEED_COMPANY_AMOUNT', 10000))
             ->create()
             ->each(function (Company $company) use ($leaves) {
                 $countRelation = rand(1, 3); // Random amount of relation with Category
