@@ -3,6 +3,7 @@
 Требования
 ----------------------------------
 
+<pre>
 PHP >= 5.5.9
 OpenSSL PHP Extension
 PDO PHP Extension
@@ -10,6 +11,7 @@ Mbstring PHP Extension
 Tokenizer PHP Extension
 PostgreSQL >= 9.4
 PostGIS >= 2.0
+</pre>
 
 Установка
 ----------------------------------
