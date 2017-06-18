@@ -1,4 +1,4 @@
-#Laravel SIG2 Test
+#Laravel 2GIS Test
 
 Требования
 ----------------------------------
